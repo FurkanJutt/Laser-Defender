@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ce05b396c9e99524e8d3556cc9fb06e2, type: 3}
+  m_Name: Meteor Wave 5
+  m_EditorClassIdentifier: 
+  meteorPrefab: {fileID: 1918457827607722968, guid: cf369498934c869478a4deb5a9645eba, type: 3}
+  pathPrefab: {fileID: 5847209379293714035, guid: 71079241362ea914fbc4179f2cfac403, type: 3}
+  timeBetweenSpawns: 0.5
+  spawnRandomFactor: 0.3
+  moveSpeed: 4
+  numberOfEnemies: 1

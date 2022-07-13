@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &762929218450263383
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 9173287175326349702}
+  - component: {fileID: 5338658048800489749}
+  m_Layer: 0
+  m_Name: MeteorSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &9173287175326349702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762929218450263383}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.17948623, y: -1.0020401, z: -0.050297365}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5338658048800489749
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 762929218450263383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f14f415d35a0504d9da1eafbba28185, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  meteorWaveConfigs:
+  - {fileID: 11400000, guid: b13343718681f534cac3b6f50fec058d, type: 2}
+  - {fileID: 11400000, guid: 315902c692944684c9eb8d48074640d1, type: 2}
+  - {fileID: 11400000, guid: db8573d5a424fb344b623b4cd39d911a, type: 2}
+  - {fileID: 11400000, guid: d467405c4eb73714292021ef727f08fe, type: 2}
+  - {fileID: 11400000, guid: 3fb70f3997a100d4c941b3a10250cd75, type: 2}
+  - {fileID: 11400000, guid: bb60f52b03c9fca48861f789dc3c98f0, type: 2}
+  - {fileID: 11400000, guid: 95902e9c698447a499d87fa126df59a7, type: 2}
+  - {fileID: 11400000, guid: 814bf1d8ad3bd6941aa2e587f7fc4fae, type: 2}
+  - {fileID: 11400000, guid: 9425924b466325d4692ee60f1278d6ae, type: 2}
+  - {fileID: 11400000, guid: 68309c9ed58fe0d4e83b7ca7776c9749, type: 2}
+  - {fileID: 11400000, guid: dc8d672e347dbea49b13d4e2699d7bc8, type: 2}
+  startingWave: 0
+  Loop: 1
+  waitBetweenWaveSpawns: 2
+  randomWaitBetweenWaveSpawns: 9

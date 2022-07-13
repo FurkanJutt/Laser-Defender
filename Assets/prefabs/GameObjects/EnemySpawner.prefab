@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7196623005422606267
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7196623005422606261}
+  - component: {fileID: 7196623005422606266}
+  m_Layer: 0
+  m_Name: EnemySpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7196623005422606261
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7196623005422606267}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.2820772, y: 0.62060034, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7196623005422606266
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7196623005422606267}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e57cf77ec90ce6a4c809a444b4d164ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  waveConfigs:
+  - {fileID: 11400000, guid: 80cc9e0243618c341a8d20cc73b7cc12, type: 2}
+  - {fileID: 11400000, guid: 1e5d2a7915fe03144806de9abfc6ad5f, type: 2}
+  - {fileID: 11400000, guid: ea86fe3af5f22e74f99d62f249406511, type: 2}
+  - {fileID: 11400000, guid: a1364932b0f54124398d7760ad6932a3, type: 2}
+  - {fileID: 11400000, guid: 686e71762f51bbf4bbd3e8c2473f932f, type: 2}
+  - {fileID: 11400000, guid: 44fc056f1b30fea40a2910bfecba341b, type: 2}
+  - {fileID: 11400000, guid: 0b1f5fead841a7c488b4234fc5690625, type: 2}
+  - {fileID: 11400000, guid: 4ca3ecd66eb54c145b5d112be9ef66cd, type: 2}
+  startingWave: 0
+  Loop: 1
+  waitBetweenWaveSpawns: 0
+  randomWaitBetweenWaveSpawns: 3
